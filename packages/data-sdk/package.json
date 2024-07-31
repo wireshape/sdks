@@ -1,6 +1,6 @@
 {
   "name": "@wireshape/data-sdk",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SDK for fetching and displaying Wireshape Product Registry Data.",
   "type": "module",
   "main": "dist/index.js",
