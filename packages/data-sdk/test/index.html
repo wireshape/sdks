@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireshape Data SDK Example</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Wireshape Product Data</h1>
+    <!-- Container for the SDK -->
+    <div id="wireshape-data-sdk"
+        style="width: 100%; max-width: 1280px; margin: 0 auto; border: 1px solid #ccc; padding: 10px;">
+        <!-- The iFrame will be inserted here by the SDK -->
+    </div>
+
+    <script type="module">
+        import WireshapeDataSDK from '../dist/index.min.js';
+
+        // Initialize the SDK with static parameters
+        const wireshape = new WireshapeDataSDK({
+            language: 'pt',
+            integrationKey: 'yourIntegrationKey'
+        });
+        wireshape.initialize();
+
+        // Directly call getProduct to display product information
+        wireshape.getProduct('742832975803');
+
+    </script>
+</body>
+
+</html>
