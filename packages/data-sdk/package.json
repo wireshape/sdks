@@ -1,7 +1,8 @@
 {
   "name": "@wireshape/data-sdk",
   "version": "0.1.0",
-  "description": "SDK for fetching and displaying Wireshape Product Registry Data.",
+  "description": "SDK for fetching and displaying Wireshape Food and Beverage Product Registry Data from barcode GTIN, EAN and UPC.",
+  "keywords": ["product data", "food", "beverage", "ecommerce", "supermarket", "barcode", "gtin", "ean", "upc", "blockchain", "ai automation"],
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
