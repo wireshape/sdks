@@ -4,7 +4,7 @@
   "description": "SDK for fetching and displaying Wireshape Food and Beverage Product Registry Data from barcode GTIN, EAN and UPC.",
   "keywords": ["product data", "food", "beverage", "ecommerce", "supermarket", "barcode", "gtin", "ean", "upc", "blockchain", "ai automation"],
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "build": "node build.mjs",
     "test": "npx http-server"
