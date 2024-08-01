@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "SDK for fetching and displaying Wireshape Product Registry Data.",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "build": "node build.mjs",
     "test": "npx http-server"
