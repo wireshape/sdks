@@ -2,7 +2,7 @@
 
 export default class WireshapeDataSDK {
   constructor({ language, integrationKey }) {
-    this.baseURL = "https://stag-data.wireshape.com/sdk";
+    this.baseURL = "https://data.wireshape.com/sdk";
     this.language = language;
     this.integrationKey = integrationKey;
     this.currentIFrameHeight = 0;
@@ -39,7 +39,7 @@ export default class WireshapeDataSDK {
   }
 
   handleReceiveMessage(event) {
-    if (event.origin !== "https://stag-data.wireshape.com") return;
+    if (event.origin !== "https://data.wireshape.com") return;
     if (!event.data || typeof event.data !== "object") return;
 
     const { eventName, payload } = event.data;
