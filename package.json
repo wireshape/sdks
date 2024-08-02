@@ -1,6 +1,6 @@
 {
   "name": "wireshape",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "Monorepo for Wireshape SDKs under the @wireshape namespace.",
   "repository": {
